@@ -1,0 +1,22 @@
+[
+  {
+    "id": "u1",
+    "name": "Amit Sharma",
+    "email": "amit.sharma@example.com",
+    "role": "Admin",
+    "status": "active",
+    "country": "India",
+    "signupDate": "2024-11-10",
+    "lastActiveAt": "2025-01-10"
+  },
+  {
+    "id": "u2",
+    "name": "Sarah Thompson",
+    "email": "sarah.t@example.com",
+    "role": "Manager",
+    "status": "inactive",
+    "country": "Canada",
+    "signupDate": "2024-09-01",
+    "lastActiveAt": "2024-12-05"
+  }
+]

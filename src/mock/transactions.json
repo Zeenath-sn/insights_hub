@@ -1,0 +1,20 @@
+[
+  {
+    "id": "t1",
+    "userId": "u1",
+    "amount": 1200,
+    "currency": "USD",
+    "status": "success",
+    "date": "2025-01-09",
+    "paymentMethod": "Credit Card"
+  },
+  {
+    "id": "t2",
+    "userId": "u2",
+    "amount": 300,
+    "currency": "USD",
+    "status": "failed",
+    "date": "2025-01-08",
+    "paymentMethod": "UPI"
+  }
+]

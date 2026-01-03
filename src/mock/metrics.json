@@ -1,0 +1,14 @@
+[
+  {
+    "date": "2025-01-01",
+    "activeUsers": 120,
+    "newUsers": 15,
+    "revenue": 3200
+  },
+  {
+    "date": "2025-01-02",
+    "activeUsers": 140,
+    "newUsers": 20,
+    "revenue": 4100
+  }
+]

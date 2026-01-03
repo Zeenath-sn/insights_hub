@@ -1,11 +1,5 @@
-import Charts from "@/features/dashboard/DashboardCharts/Charts";
-import KpiCard from "@/features/dashboard/KPICards/KpiCard";
+import { redirect } from "next/navigation";
 
-export default function Dashboard() {
-  return (
-    <div className="flex flex-col gap-6">
-      <KpiCard />
-      <Charts />
-    </div>
-  );
+export default function Home() {
+  redirect("/dashboard");
 }

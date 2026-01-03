@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/HeaderComponent/Header";
-import SideNavigationComponent from "@/components/SideNavigationComponent";
+import Header from "@/components/layout/Header";
+import SideBar from "@/components/layout/SideBar";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../theme";
@@ -42,7 +42,7 @@ export default function RootLayout({
       >
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
-            <SideNavigationComponent />
+            <SideBar />
             <Header />
             <div className="ml-46 mt-18 mr-4">{children}</div>
           </ThemeProvider>

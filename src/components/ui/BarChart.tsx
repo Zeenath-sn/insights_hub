@@ -1,6 +1,6 @@
 "use client";
 
-import { MetricsType } from "@/features/dashboard/DashboardCharts/ChartsTypes";
+import { MetricsType } from "@/types/metrics";
 import * as d3 from "d3";
 import React from "react";
 

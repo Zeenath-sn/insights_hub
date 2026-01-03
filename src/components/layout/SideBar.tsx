@@ -1,7 +1,7 @@
 // import { Divider } from "@mui/material";
 import Link from "next/link";
 
-export default function SideNavigationComponent() {
+export default function SideBar() {
   return (
     <div className="bg-[#778873] text-white px-4 py-6 h-full fixed w-42 top-0 left-0 flex flex-col gap-2 rounded-sm z-10 shadow-md">
       <div>
